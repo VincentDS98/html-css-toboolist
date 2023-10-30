@@ -1,0 +1,142 @@
+/*
+RESET
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+ul{
+    padding-left: 20px;
+}
+
+
+/*
+GENERAL
+*/
+body{
+    background-color: #f6f8f9;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.small-margin-bottom{
+    margin-bottom: 1px;
+}
+
+
+
+/*
+HEADER
+*/
+header{
+    padding: 10px 15px;
+    background-color: white;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+
+
+/*
+Main
+*/
+.main-container{
+    background-color: white;
+    padding: 20px 40px;
+}
+.main-button{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.special-button{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.ul{
+    list-style:none;
+}
+
+.first-level-li{
+    margin-bottom: 25px;
+
+}
+
+ul ul{
+    padding-left: 10px;
+}
+
+.check{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.not-done{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.editorial{
+    background-color: aqua;
+}
+
+.q1-goals{
+    background-color:purple;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: pink;
+}
+
+.sales{
+    background-color:chartreuse;
+}
+
+
+
+
